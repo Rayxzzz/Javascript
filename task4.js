@@ -1,4 +1,4 @@
-data = {
+let data = {
     id: 1,
     name: "Leanne Graham",
     username: "Bret",
@@ -14,20 +14,22 @@ data = {
     website: "hildegard.org"
 }
 
-Mydata = {
+let Mydata = {
     name: "Ray",
-    username: "Ray",
+    // username: "Ray",c
     email: "rayj@gmail.com",
     hobby: "gaming",
 }
 
-newData = {
+let newData = {
     ...data, ...Mydata,
 }
 
 
 const { street, city } = data.address;
+console.log(newData)
 console.log(street)
+console.log(city)
 
 
 

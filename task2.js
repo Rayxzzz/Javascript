@@ -6,25 +6,25 @@ const ipa = 70
 const nilaiUn = (mtk,bind,bing,ipa) => {
     let x = mtk + bind + bing + ipa
     let y = x / 4 
-    if(isNaN(y)){
-        console.log("Masukan semua nilai")
-    }else{
-    console.log(y)
-    }
-    
+
     if(isNaN(y)){
         console.log("Nilai belum lengkap")
-    }else if(90 <= y <= 100){
+    }else if(y <= 100 && y >= 90){
+        console.log(y)
         console.log("A")
-    }else if (80 <= y <= 89) {
+    }else if (y <= 89 && y >= 80) {
+        console.log(y)
         console.log("B")
-    }else if (70 <= y <= 79) {
+    }else if (y <= 79 && y >= 70) {
+        console.log(y)
         console.log("C")
-    }else if (60 <= y <= 69) {
+    }else if (y <= 79 && y >= 60) {
+        console.log(y)
         console.log("D")
-    }else if (0 <= y <= 59) {
+    }else if (y <= 69 && y >= 60) {
+        console.log(y)
         console.log("E")
     }
 }
 
-nilaiUn(80,80,80,90)
+nilaiUn(mtk,bahasaIndonesia,bahasaInggris)

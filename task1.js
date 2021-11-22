@@ -1,5 +1,5 @@
 const biodata = {
-    name : "ray",
+    name : "Ridho Suhendar",
     age : 20,
     hobbies : ["gaming", "eat", "sleeping"],
     IsMaried : true,
@@ -8,19 +8,19 @@ const biodata = {
     {
         name: "SDN 004",
         yearIn: 2003,
-        yearOut: 2007,
+        yearOut: 2009,
         major: null
     },
     {
-        name: "SMPN 003",
-        yearIn: 2007,
-        yearOut: 2010,
+        name: "SMPN Muhammadiyah 1",
+        yearIn: 2009,
+        yearOut: 2012,
         major: null
     },
     {
-        name: "SMAN 005",
-        yearIn: 200,
-        yearOut: 2006,
+        name: "SMAN Muhammadiyah 1",
+        yearIn: 2012,
+        yearOut: 2015,
         major: null
     }
     ],
@@ -43,4 +43,4 @@ const biodata = {
 }
 
 
-console.log(typeof(biodata.hobbies))
+console.log(typeof(biodata.age))
