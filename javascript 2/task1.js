@@ -3,11 +3,11 @@
 
 // isArray()
 // is array digunakan utk memeriksa apakah suatu variable itu array/tidak
-// const x = ['a', 'b', 'c']
+// const x = 2
 // console.log(Array.isArray(x))
 
 
-// toString()
+// every()
 // melakukan test terhadap semua value di array yg akan mengahsilkan ouput boolean
 // const isBelowThreshold = (currentValue) => currentValue < 40;
 // const array1 = [1, 30, 39, 29, 10, 13];
@@ -24,8 +24,8 @@
 
 
 // findIndex()
-// sama seperti find() tetapi mengeluarkan input
-// const x = [2, 8, 4]
+// sama seperti find() tetapi mengeluarkan input index
+// const x = [1, 8, 4]
 // console.log(x.findIndex(function(a){
 //     return a > 1
 // }))
@@ -39,7 +39,7 @@
 
 // reverse()
 // memutar balik urutan sebuah array 
-// const x = ['a', 'b', 'c']
+// const x = ['a', 'b', 'c'].reverse()
 // console.log(x.reverse())
 
 
@@ -59,13 +59,13 @@
 // filter()
 // mefilter sebuah value dari sebuah array 
 // const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-// const result = words.filter(a => a.length > 6)
+// const result = words.filter(a => a.length == 5)
 // console.log(result)
 
 
 // join()    
 // merubah array menjadi string
 // const x = ['Fire', 'Air', 'Water'];
-// console.log(x.join(""));
+// console.log(x.join("999"));
 
 

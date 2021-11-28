@@ -7,9 +7,7 @@ const name = ['Abigail', 'Alexandra', 'Alison', 'Angela','Amanda',
 
 
 const numMax = (num, contain) =>{
-        if(isNaN(num)){
-                console.log(contain)
-        }else{
+       
                 const newArray = []
                 
                 for(let i = 0; i < num  ; i++ ){
@@ -23,7 +21,7 @@ const numMax = (num, contain) =>{
  
                 console.log(newArray)
         
-        }
+        
 
 }
 
@@ -32,7 +30,7 @@ const Searchname = (word,max,callback) => {
 
         const containName = [] 
         for(let i = 0; i < name.length; i++){
-                if(name[i].toLowerCase().includes(word.toLowerCase())){
+                if(name[i].toUpperCase().includes(word.toUpperCase())){
                 containName.push(name[i]);
                 }
                 
@@ -42,4 +40,4 @@ const Searchname = (word,max,callback) => {
 }
 
 
-Searchname("an", 4, numMax)
+Searchname("An", 100, numMax)

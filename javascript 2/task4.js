@@ -14,4 +14,4 @@ console.log(original)
 }
 
 enkripsi("hai");
-dekripsi('hai')
+dekripsi('U2FsdGVkX1+f+Dm3JOO2P8YsqMQ3XqKjoZUJw4qRnKA=')
